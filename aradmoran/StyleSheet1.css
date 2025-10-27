@@ -1,0 +1,38 @@
+﻿body {
+    direction: rtl
+ 
+}
+h1 {
+    color: greenyellow;
+    font-style: italic;
+    font-size: 50pt;
+    text-align: center
+}
+h2 {
+    color: forestgreen;
+    font-style: italic;
+    font-size: 25pt;
+    text-align: center
+}
+div {
+    font-size: 50pt;
+    text-align: center
+}
+p {
+    font-size: 25pt;
+    text-align: center
+}
+div2 
+{
+    text-align: center
+}
+p2 {
+    font-size: 25pt;
+    text-align: center
+    
+}
+p3 {
+    font-size: 25pt;
+    text-align: center
+}
+
