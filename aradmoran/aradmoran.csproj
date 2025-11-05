@@ -67,14 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="elephent.html" />
+    <Content Include="girff.html" />
+    <Content Include="ing\2019-removebg-preview.png" />
+    <Content Include="ing\arrow.png" />
+    <Content Include="ing\g-removebg-preview.png" />
+    <Content Include="ing\images2222-removebg-preview.png" />
     <Content Include="ing\Lion_pose__6649531395_-removebg-preview.png" />
+    <Content Include="ing\pil-removebg-preview.png" />
+    <Content Include="ing\pil.jpg" />
     <Content Include="ing\גירף-removebg-preview.png" />
     <Content Include="ing\פיל_אי_אפשר_להפיל-removebg-preview.png" />
+    <Content Include="lion.html" />
+    <Content Include="new.html" />
+    <Content Include="paragrph.html" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheetphargraph2.css" />
     <Content Include="thefirstofmany.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

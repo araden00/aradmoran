@@ -2,37 +2,33 @@
     direction: rtl
  
 }
+
+h {
+    color: black;
+    font-style: italic;
+    font-size: 150pt;
+    text-align: center
+}
 h1 {
-    color: greenyellow;
+    color: black;
     font-style: italic;
     font-size: 50pt;
     text-align: center
 }
-h2 {
-    color: forestgreen;
-    font-style: italic;
-    font-size: 25pt;
-    text-align: center
-}
-div {
-    font-size: 50pt;
-    text-align: center
-}
+
+
+
 p {
-    font-size: 25pt;
-    text-align: center
+    direction:rtl;
+    font-size: 50pt;
+    text-align: center;
+   }
+a {
+    float: right;
+    font-size: 30pt;
 }
-div2 
-{
-    text-align: center
-}
-p2 {
-    font-size: 25pt;
-    text-align: center
-    
-}
-p3 {
-    font-size: 25pt;
-    text-align: center
-}
+
+
+
+
 
