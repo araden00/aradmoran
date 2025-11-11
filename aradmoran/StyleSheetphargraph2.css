@@ -7,8 +7,13 @@ table {
     text-align: center;
     direction: rtl;
 }
-td, th  {
+td  {
     border: 3px solid black;
     padding: 8px;
+}
+th {
+    border: 3px solid black;
+    padding: 8px;
+    background-color: lightgray;
 }
 
