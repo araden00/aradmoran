@@ -7,8 +7,38 @@ table {
     text-align: center;
     direction: rtl;
 }
-td, th  {
+td  {
     border: 3px solid black;
     padding: 8px;
+}
+th {
+    border: 3px solid black;
+    padding: 8px;
+    background-color: lightgray;
+}
+.english {
+    background-color : blue;
+}
+.tanach {
+    background-color: green;
+}
+.sport {
+    background-color: yellow;
+}
+.math{
+    background-color: orange;
+}
+.comp {
+    background-color: red;
+}
+.saprot
+{
+    background-color: purple;
+}
+.phi{
+    background-color: pink;
+}
+.his{
+    background-color: brown;
 }
 
