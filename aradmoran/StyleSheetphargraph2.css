@@ -10,6 +10,7 @@ table {
 td  {
     border: 3px solid black;
     padding: 8px;
+    background-color: lightgray;
 }
 th {
     border: 3px solid black;

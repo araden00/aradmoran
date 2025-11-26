@@ -41,7 +41,12 @@ function CheckAnswer() {
     var num = document.getElementById("num").value;
     var num2 = document.getElementById("num2").value;
     var num3 = num2 + num;
-   
+
+document.write("the machpela " + (num1 * num2));
+document.write("<br/>");
+if (num1 > num2)
+{
+    document.write("the efresh " + (num1 - num2));
 }
 function pool() {
     var n1rnd = Math.floor(Math.random() * 10) + 1;
@@ -49,6 +54,7 @@ function pool() {
     document.getElementById("num").value = n1rnd;
     document.getElementById("num2").value = n2rnd;
 }
+
 
 
 
