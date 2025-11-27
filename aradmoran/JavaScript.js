@@ -38,15 +38,19 @@
 //    document.write("the efresh " + (num2 - num1));
 //}
 function CheckAnswer() {
-    var num = document.getElementById("num").value;
-    var num2 = document.getElementById("num2").value;
-    var num3 = num2 + num;
+    var num = parseInt(document.getElementById("num").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = parseInt(document.getElementById("num3").value);
 
-document.write("the machpela " + (num1 * num2));
-document.write("<br/>");
-if (num1 > num2)
-{
-    document.write("the efresh " + (num1 - num2));
+    if (result = num2 + num); {
+        document.getElementById("span1").innerHTML = "כל הכבוד"
+    } 
+    else {
+        document.getElementById("span1").innerHTML = "טעות"
+    }
+    
+    
+    
 }
 function pool() {
     var n1rnd = Math.floor(Math.random() * 10) + 1;
