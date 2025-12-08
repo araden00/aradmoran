@@ -14,12 +14,10 @@ function CheckAnswer()
     var num2 = parseInt(document.getElementById("num2+").value);
     var userAnswer = parseInt(document.getElementById("num3+").value);
     var correct = num + num2;
-    if (userAnswer == correct)
-    {
+    if (userAnswer == correct) {
         document.getElementById("span1+").value = "יפה מאוד ";
     }
-    else
-    {
+    else {
         document.getElementById("span1+").value = "נסה שנית";
     }
 
