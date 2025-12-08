@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+   
     <meta charset="utf-8" />
     <title></title>
 
@@ -14,37 +15,147 @@
     <input type="button" value="click" onclick="clickbutt()" />-->
     <table>
         <tr>
+            <th>
+                מספר ראשון:
+            </th>
+            <th>
+
+            </th>
+            <th>
+                מספר שני:
+            </th>
+            <th>
+
+            </th>
+            <th>
+                תשובה שלך:
+            </th>
+            <th>
+                התשובה:
+            </th>
+        </tr>
+        <tr>
+
             <td>
-                <input type="text" size="20" id="num" disabled />
+                <input type="text" size="20" id="num+" disabled />
             </td>
             <td>
                 +
             </td>
             <td>
-                <input type="text" size="20" id="num2" disabled />
+                <input type="text" size="20" id="num2+" disabled />
             </td>
             <td>
                 =
             </td>
             <td>
-                <input type="text" size="10" id="num3" />
+                <input type="text" size="20" id="num3+" />
+            </td>
+            <td>
+                <span>
+                    <input type="text" size="10" id="span1+" disabled />
+                </span>
             </td>
         </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="num-" disabled />
+            </td>
+            <td>
+                -
+            </td>
+            <td>
+                <input type="text" size="20" id="num2-" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="num3-" />
+            </td>
+            <td>
+                <span>
+                    <input type="text" size="10" id="span1-" disabled />
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="num*" disabled />
+            </td>
+            <td>
+                *
+            </td>
+            <td>
+                <input type="text" size="20" id="num2*" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="num3*" />
+            </td>
+            <td>
+                <span>
+                    <input type="text" size="10" id="span1*" disabled />
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="num/" disabled />
+            </td>
+            <td>
+                /
+            </td>
+            <td>
+                <input type="text" size="20" id="num2/" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="num3/" />
+            </td>
+            <td>
+                <span>
+                    <input type="text" size="10" id="span1/" disabled />
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" id="num%" disabled />
+            </td>
+            <td>
+                %
+            </td>
+            <td>
+                <input type="text" size="20" id="num2%" disabled />
+            </td>
+            <td>
+                =
+            </td>
+            <td>
+                <input type="text" size="20" id="num3%" />
+            </td>
+            <td>
+                <span>
+                    <input type="text" size="10" id="span1%" disabled />
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="button" value="בדוק" onclick="CheckAnswer();" />
+            </td>
+        </tr>
+        <tr>
+             <td align="center" >
+            <input type="button" value="הגרלת מספרים חדשים" onclick="pool();" />
+             </td>
+        </tr>
     </table>
-
-
-
-    <!--<input type="text" size="20" id="num" />
-    <input type="text" size="20" id="num2" />
-    <input type="text" size="10" id="num3"disabled />-->
-    <span>
-        :הקלד מספר שלם
-    </span>
-    <span1>
-        id="mspplus">
-    </span1>
-    <input type="button" value="שלח" onclick="CheckAnswer();" />
-    <input type="button" value="pool" onclick="pool();" />
     <script src="JavaScript.js"></script>
 </body>
 </html>
