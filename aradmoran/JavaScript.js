@@ -1,12 +1,7 @@
 ﻿//alert("something");
 //document.write("something");
 
-//document.write(" ");
 
-//var num = prompt("enter a number", 7);
-//document.write(num);
-
-//document.write(" ");
 
 function CheckAnswer()
 {
