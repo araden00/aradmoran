@@ -1,5 +1,4 @@
-﻿//alert("something");
-//document.write("something")
+﻿
 
 
 

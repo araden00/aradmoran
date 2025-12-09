@@ -86,6 +86,7 @@
     <Content Include="paragrph.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheetphargraph2.css" />
+    <Content Include="targilim.js" />
     <Content Include="thefirstofmany.html" />
     <Content Include="Web.config" />
   </ItemGroup>
