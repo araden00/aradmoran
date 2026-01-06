@@ -74,6 +74,11 @@
     <Content Include="ing\arrow.png" />
     <Content Include="ing\g-removebg-preview.png" />
     <Content Include="ing\images2222-removebg-preview.png" />
+    <Content Include="ing\jpg.1.jpg" />
+    <Content Include="ing\jpg.2.jpg" />
+    <Content Include="ing\jpg.3.jpg" />
+    <Content Include="ing\jpg.4.jpg" />
+    <Content Include="ing\jpg.5.jpg" />
     <Content Include="ing\Lion_pose__6649531395_-removebg-preview.png" />
     <Content Include="ing\pil-removebg-preview.png" />
     <Content Include="ing\pil.jpg" />
