@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="elephent.html" />
     <Content Include="Ex22.js" />
+    <Content Include="Ex23.js" />
     <Content Include="girff.html" />
     <Content Include="ing\2019-removebg-preview.png" />
     <Content Include="ing\arrow.png" />
@@ -86,6 +87,7 @@
     <Content Include="ing\פיל_אי_אפשר_להפיל-removebg-preview.png" />
     <Content Include="java html.html" />
     <Content Include="JavaScript.js" />
+    <Content Include="Ex23.html" />
     <Content Include="lion.html" />
     <Content Include="new.html" />
     <Content Include="paragrph.html" />
