@@ -1,167 +1,250 @@
 //targil1
-//function Drawnlike() {
-//    var link = document.createElement("a");
-//    link.setAttribute("href", "1.html");
-//    link.setAttribute("style", "color:red");
-//    link.innerText = "קישור לדף 1";
-//    el.appendChild(link);
-//}
-//Drawnlike();
+function DrawnLink() {
+    var link = document.createElement("a");
+    link.setAttribute("href", "1.html");
+    link.setAttribute("style", "color:red");
+    link.innerText = "קישור לדף 1";
+    el.appendChild(link);
+}
+/*Drawnlike();*/
 
 //targil2
-//function Drawnlike() {
-//    var img1 = document.createElement("img");
-//    img1.setAttribute("src","ing/jpg.1.jpg");
-//    img1.setAttribute("width", "200");
-//    img1.setAttribute("height", "200")
-//    el.appendChild(img1);
-//}
-//Drawnlike();
+function DrawnImge() {
+    var img1 = document.createElement("img");
+    img1.setAttribute("src","ing/jpg.1.jpg");
+    img1.setAttribute("width", "200");
+    img1.setAttribute("height", "200")
+    el.appendChild(img1);
+}
+/*DrawnImge();*/
 
 //targil3
-//function Drawnlike3() {
-//    for (var i = 0; i < 2; i++)
-//    {
-//        var imgindex = prompt("imgIndex");
-//        var img1 = document.createElement("img");
-//        img1.setAttribute("src", "ing/jpg." + imgindex + ".jpg");
-//        img1.setAttribute("width", "200");
-//        img1.setAttribute("height", "200")
-//        el.appendChild(img1);
-//    }
-//}
-//Drawnlike3();
+function DrawnImge3(imgindex) {
+    
+        var img1 = document.createElement("img");
+        img1.setAttribute("src", "ing/jpg." + imgindex + ".jpg");
+        img1.setAttribute("width", "200");
+    img1.setAttribute("height", "200");
+    return (img1);
+        /*el.appendChild(img1);*/
+    
+}
+//DrawnImge3();
+//DrawnImge3();
 
 //targil4
-//function Drawnlike4() {
-//    for (var i = 0; i < 2; i++)
-//    {
-//        var imgindex = prompt("imgIndex");
-//        var imghight = prompt("img hight");
-//        var imgWidth = prompt("img width");
-//        var img1 = document.createElement("img");
-//        img1.setAttribute("src", "ing/jpg." + imgindex + ".jpg");
-//        img1.setAttribute("height", +imghight);
-//        img1.setAttribute("width", +imgWidth);
-//        el.appendChild(img1);
-//    }
-//}
-//Drawnlike4()
-
-//targil5
-//function DrawSomeImages() {
-//    var num = prompt("how many imgs");
-//    for (var i = 1; i <= num; i++)
-//    {
-//        var img1 = document.createElement("img");
-//        img1.setAttribute("src", "ing/jpg." + i +".jpg");
-//        img1.setAttribute("width", "200");
-//        img1.setAttribute("height", "200");
-//        el.appendChild(img1);
-//        newbr = document.createElement("br");
-//        el.appendChild(newbr);
-//    }
-
-//}
-//DrawSomeImages()
-
-//targil6
-//function Drawnlike6() {
-//        var linkIndex = prompt("enter link index");
-//    var link = document.createElement("a");
-
-//    link.setAttribute("href", linkIndex+".html");
-//        link.setAttribute("style", "color:red");
-//    link.innerText = linkIndex+" "+"קישור לדף";
-//    newbr = document.createElement("br");
-//    el.appendChild(link);
-//    el.appendChild(newbr);
-//    }
-//    Drawnlike6();
-//function Drawsomelinks6() {
-//    for (var i = 1; i <= 4; i++)
-//        Drawnlike6();
-//}
-//Drawsomelinks6()
-
-//targil7 A
-//function DrawnRow() {
-//    var rowindex = prompt("Enter row index");
-//    var tablerow = document.createElement("tr");
-//    var tabledata1 = document.createElement("td");
-//    var tabledata2 = document.createElement("td");
-//    var img1;
-//    var link1;
-//     img1 = Drawnlike4();
-//     link1 = Drawnlike6();
-//    tabledata1.appendChild(img1);
-//    tabledata2.appendChild(link1);
-//    tablerow.appendChild(tabledata1);
-//    tablerow.appendChild(tabledata2);
-//    el.appendChild(tablerow);
-//}
-//DrawnRow()
-
-//function Drawnlike4() {
-//        var imgindex = prompt("imgIndex");
-//        var imghight = prompt("img hight");
-//        var imgWidth = prompt("img width");
-//        var img1 = document.createElement("img");
-//        img1.setAttribute("src", "ing/jpg." + imgindex + ".jpg");
-//        img1.setAttribute("height", +imghight);
-//        img1.setAttribute("width", +imgWidth);
-//    el.appendChild(img1);
-//}
-//function Drawnlike6() {
-//        var linkIndex = prompt("enter link index");
-//    var link = document.createElement("a");
-//    link.setAttribute("href", linkIndex+".html");
-//        link.setAttribute("style", "color:red");
-//    link.innerText = linkIndex + " " + "קישור לדף";
-//    el.appendChild(link);
-//    }
-
-//targil7 B
-
-function Drawntable() {
-    var table = document.createElement("table");
-    var row = prompt("Enter number of row");
-    for (var i = 0; i < row; i++) {
-        DrawnRow();
-        table.appendChild(tablerow);
-    }
-    el.appendChild(table);
-}
-Drawntable();
-
-function DrawnRow() {
-    var rowindex = prompt("Enter row index");
-    var tablerow = document.createElement("tr");
-    var tabledata1 = document.createElement("td");
-    var tabledata2 = document.createElement("td");
-    var img1= Drawnlike4();
-    var link = Drawnlike6();
-    tabledata1.appendChild(img1);
-    tabledata2.appendChild(link);
-    tablerow.appendChild(tabledata1);
-    tablerow.appendChild(tabledata2);
-}
-function Drawnlike4() {
-        var imgindex = prompt("imgIndex");
-        var imghight = prompt("img hight");
-        var imgWidth = prompt("img width");
+function DrawnImge4(imgindex,imghight,imgWidth,el) {
+   
         var img1 = document.createElement("img");
         img1.setAttribute("src", "ing/jpg." + imgindex + ".jpg");
         img1.setAttribute("height", +imghight);
         img1.setAttribute("width", +imgWidth);
-        
+        el.appendChild(img1);
 }
-function Drawnlike6() {
-    var linkIndex = prompt("enter link index");
-    var link = document.createElement("a");
-    link.setAttribute("href", linkIndex+".html");
-    link.setAttribute("style", "color:red");
-    link.innerText = linkIndex + " " + "קישור לדף";
+/*DrawnImge4()*/
+
+//targil5
+function DrawSomeImages(num) {
+    for (var i = 1; i <= num; i++)
+    {
+        var div =DrawnImge3(i);   
+        el.appendChild(div);
+    }
 
 }
+/*DrawSomeImages(5)*/
 
+//targil6
+function Drawnlink6(linkIndex,el) {
+    el.setAttribute("href", linkIndex + ".html");
+    el.innerText = (linkIndex + "קישור לדף "); 
+    el.setAttribute("style", "color:red;");
+    var k = document.getElementById('el');
+    k.appendChild(el);
+}
+function Drawsomelinks6() {
+    for (var i = 1; i <= 5; i++) {
+        var a = document.createElement('a')
+        Drawnlink6(i, a);
+    }
+    
+}
+/*Drawsomelinks6();*/
+
+////targil7 A
+function DrawnRow(el,rowIndex, imgHeight, imgWidth) {
+    var tablerow = document.createElement("tr");
+    var tabledata1 = document.createElement("td");
+    var tabledata2 = document.createElement("td");
+    DrawnImge4(rowIndex, imgHeight, imgWidth, tabledata1);
+    var a = document.createElement('a');
+    Drawnlink6(rowIndex, tabledata2);
+    tablerow.appendChild(tabledata1);
+    tablerow.appendChild(tabledata2);
+    el.appendChild(tablerow);
+    
+}
+/*DrawnRow()*/
+
+
+
+//targil7 B
+function Drawntable(rows,el) {
+    var table = document.createElement("table");
+    for (var i = 1; i <= rows; i++) {
+
+        var tr = DrawnRow(table, i, 200, 200);
+    }
+    var el = document.getElementById("el");
+    el.appendChild(table);
+}  
+//Drawntable(4);
+    
+//targil8 
+function SumTwoValues(x, y)
+{
+    var num = x + y
+    return num;
+}
+function ShowSumTwoValues()
+{
+    var num1 = parseInt(prompt("enter first number"));
+    var num2 = parseInt(prompt("enter second number"));
+    var sum = SumTwoValues(num1, num2);
+    alert("the sum is: " + sum);
+}
+/*ShowSumTwoValues();*/
+
+//targil9
+function IsEven(x)
+{
+    if (x % 2 == 0)
+        return true;
+}
+function ShowIsEven()
+{
+    var num1 = parseInt(prompt("enter a number"));
+    var even = IsEven(num1);
+    if (even == true) {
+        alert("the number is even");
+    }
+    else {
+        alert("the number is odd");
+    }
+}
+/*ShowIsEven();*/
+
+//targil10
+function IsAInEnd(str)
+{
+    if (str.charAt(str.length - 1) == "A") {
+        return true;
+    }
+    else {
+        return false; }
+}
+function ShowIsAInEnd() {
+    var str1 = prompt("enter a string");
+    var aInEnd = IsAInEnd(str1);
+    if (aInEnd == true) {
+        alert("the string ends with A");
+    }
+    else {
+        alert("the string does not end with A");
+    }
+
+}
+/*ShowIsAInEnd();*/
+
+//targil11
+function FindDifference(x, y) {
+    div = x - y;
+    if (div < 0) {
+        div = div * -1;
+    }
+    return div;
+}
+function ShowFindDifference() {
+    var num1 = parseInt(prompt("enter first number"));
+    var num2 = parseInt(prompt("enter second number"));
+    var difference = FindDifference(num1, num2);
+    alert("the difference is: " + difference);
+}
+/*ShowFindDifference();*/
+
+//targil12
+function SumEvenValuesUpToX(x) {
+    var sum = 0;
+    for (var i = 0; i <= x; i++) {
+        if (i % 2 == 0) {
+            sum = sum + i;
+        }
+    }
+    return sum;
+}
+function ShowSumEvenValuesUpToX() {
+    var num1 = parseInt(prompt("enter a number"));
+    var sumEven = SumEvenValuesUpToX(num1);
+    alert("the sum of even numbers up to " + num1 + " is: " + sumEven);
+}
+/*ShowSumEvenValuesUpToX();*/
+
+//targil13
+function FindMaxValue(x) {
+    var max =0;
+    for (var i = 0; i < x; i++) {
+        var num = parseInt(prompt("enter a number"));
+        if (num > max)
+        { 
+          max = num;
+        }
+    }
+    return max;
+}
+function ShowFindMaxValue() {
+    var num1 = parseInt(prompt("enter how many numbers you want to enter"));
+    var max = FindMaxValue(num1);
+    alert("the max value is: " + max);
+}
+/*ShowFindMaxValue();*/
+
+//targil14
+
+function FindExtremesDifference(x) {
+    var max = -999;
+    var min = 999;
+    for (var i = 0; i < x; i++) {
+        var num = parseInt(prompt("enter a number"));
+        if (num > max) {
+            max = num;
+        }
+        if (num < min) {
+            min = num;
+        }
+    }
+    var difference = max - min;
+    return difference;
+}
+function ShowFindExtremesDifference() {
+    var num1 = parseInt(prompt("enter how many numbers you want to enter"));
+    var difference = FindExtremesDifference(num1);
+    alert("the difference between the max and min values is: " + difference);
+}
+/*ShowFindExtremesDifference();*/
+
+//targil15
+function ConcatStrings(x) {
+    var concat = "";
+    for (var i = 0; i < x; i++) {
+        var str = prompt("enter a string");
+        concat = concat + str;
+        concat = concat + " ";
+    }
+    return concat;
+}
+function ShowConcatStrings() {
+    var num1 = parseInt(prompt("enter how many strings want to enter???"));
+    var concat = ConcatStrings(num1);
+    alert(concat);
+}
+ShowConcatStrings();
